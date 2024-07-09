@@ -1465,7 +1465,7 @@ end)
    end)    
     btns:Button("Shift Lock", function()         loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/ShiftLockx/main/Shiftlock-MiniNoobie",true))()    
     end)
-local serv = win:Server("Premium Buyer", "rbxassetid://15895254052")
+local serv = win:Server("Premium Buyer", "rbxassetid://18407768833")
 local ones = 0.000000001
 local Gon = 0.00000000001
 local Ang = 0.0000000001
