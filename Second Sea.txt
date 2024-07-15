@@ -1,8 +1,8 @@
 
-if game.PlaceId==4587545091 then    loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))() 
+if game.PlaceId==4587545091 then    loadstring(game:HttpGet('https://raw.githubusercontent.com/Duy0202/Duy0202/main/Gui.txt'))() 
 elseif game.PlaceId==7258239416 then
 local Notif = loadstring(game:HttpGet("https://api-sirclub.onrender.com/scripts/raw/notifybottom.lua"))()
-  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Discord-Lib'))()  
+  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Duy0202/Duy0202/main/duy'))()  
   local win = DiscordLib:Window("Test Hub X Free No Premium")  
 local per = game.Players.LocalPlayer.Name
  DiscordLib:Notification("Test Hub","Hello! "..""..per..".                                              ".."Thanks For Using Test Hub","Ok") 
@@ -893,7 +893,7 @@ btns:Textbox("Bug Report", "Type!", true, function(t)
 if t then
 DiscordLib:Notification("Thông Báo","Tin Nhắn Đã Được Gửi.","Ok")
 HttpService = game:GetService("HttpService") 
- Webhook_URL =  "https://discord.com/api/webhooks/1167083350499020841/Iu6pVDxhv8tUDaf-tR4gCt4W8e9YGYfXF46M52uLN4jQHcfvAUJEJIl8bnY4KKu0WTD0" 
+ Webhook_URL =  "https://discord.com/api/webhooks/1260054056626556940/WS-90jwx1wWuXHJUBbF_rjnRlEBHyc0NwhNBsAunNeIp3zdqBbks-UWe8AdJXdjfMn5J" 
  local ok = request or http_request or (http and http.request) or syn.request 
  ok( 
  { 
@@ -1042,41 +1042,4 @@ if httprequest then
 end
 		end
 end)
- btns:Label("More") 
- btns:Button("Universal, Test Hub", function() 
- loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/TestHub/main/Universal"))() 
- end) 
-  btns:Button("Lucky Block Battleground", function()   
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/LuckyBlockBattleground/main/HttVeg'))()   
-   end)  
-  btns:Button("Sakura Stand", function()  
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Sakura-Stand/main/ST'))()   
-  end)  
-  btns:Button("AUT OLD UNIVERSE", function()  
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/OUT-OLD-UNIVERSE/main/UNIVERSE%20OLD" ,true))()  
-  end)  
-  btns:Label("Script VNP") 
-    btns:Button("Hoho Hub VNP", function()     
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/vn%20Piece%20script-obfuscated.lua', true))()     
-     end)    
-btns:Button("Viet Hub VNP", function() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/viet452009/VietHub/main/Loading.Lua"))()
-end)
-btns:Label("More Script") 
-btns:Button("Hub ESP",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/ESP-COPY/main/TY%20FOR%20METHOD"))()
-end)
- btns:Button("Infinte yield", function() 
- loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
- end) 
 
-   btns:Button("Anti Afk", function()    
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Anti-AFK/main/NO%20KICK" ,true))()    
-    end)    
-    btns:Button("Keyboard", function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()       
-   end)             
-    btns:Button("FlyV3", function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()   
-   end)    
-    btns:Button("Shift Lock", function()         loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/ShiftLockx/main/Shiftlock-MiniNoobie",true))()    
-    end) 
-end
