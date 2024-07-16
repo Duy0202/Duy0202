@@ -2,7 +2,7 @@ local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Duy0202
 
 ---------------
 
-  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Duy0202/Duy0202/main/Discord-Lib'))()   
+  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Duy0202/Discord-Lib/main/Discord-Lib'))()   
    local win = DiscordLib:Window("[Test Hub X Premium⭐] ".." ")   
 local per = game:GetService("Players").LocalPlayer.Name
  DiscordLib:Notification("Premium Stars ⭐ Share","Hello! ".."⭐"..per..".                                              ".." Thanks For Buy Premium ","Ok") 
