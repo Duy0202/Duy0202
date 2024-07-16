@@ -1,4 +1,4 @@
-local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Duy0202/Hoclomcongthuc/main/noitification"))()
+local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/ThuAn03012010/Hoclomcongthuc/main/noitification?token=GHSAT0AAAAAACUX534PUWAT4S7XNSYLIWHGZUWH5CQ"))()
 
 ---------------
 
